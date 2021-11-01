@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
+
+@media (max-width: 1920px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.list-inline > li {
+  font-size: 10px;
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-green {
+  background-color: #1E5128;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+.card {
+  background-color: #D8E9A8;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.socials {
+  font-size: 40px;
+}
+
+.profile-pic {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-left: -53%;
+  height: 100%;
+  width: auto;
+}
+
+h1 {
+  color: #191A19;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  color: #1E5128;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1E5128;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+a:hover {
+  color: #4E9F3D;
+}
+
+h3 {
+  color: #4E9F3D;
+  font-family: 'Lato', sans-serif;
+}
